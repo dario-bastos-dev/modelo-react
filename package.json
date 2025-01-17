@@ -43,12 +43,12 @@
   },
   "lint-staged": {
     "*": [
-      "biome check --files-ignore-unknown=true",
-      "biome check --write --no-errors-on-unmatched",
-      "biome check --write --organize-imports-enabled=false --no-errors-on-unmatched",
-      "biome check --write --unsafe --no-errors-on-unmatched",
-      "biome format --write --no-errors-on-unmatched",
-      "biome lint --write --no-errors-on-unmatched"
+      "biome check ",
+      "biome check --write ",
+      "biome check --write",
+      "biome check --write ",
+      "biome format --write",
+      "biome lint --write"
     ]
   }
 }
