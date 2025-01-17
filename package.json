@@ -43,7 +43,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "biome check --write --organize-imports-enabled=true --no-errors-on-unmatched",
+      "biome check --organize-imports-enabled=true --no-errors-on-unmatched",
       "biome format --write --no-errors-on-unmatched"
     ],
     "*.{css,scss,less}": ["biome check --no-errors-on-unmatched"],
