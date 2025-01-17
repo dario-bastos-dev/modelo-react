@@ -1,0 +1,4 @@
+echo 'Check for linting errors and run tests before commiting...'
+npm run lint || (echo 'linting erros faileds, commit aborted' && exit 1)
+
+echo 'Done'
