@@ -1,3 +1,5 @@
-echo "Running lint..."
+ echo "Checking for linting errors..."
 
- npx lint-staged
+ npx lint-staged || (echo "Linting errors  or test failed. Please fix them before committing." && exit 1)
+
+ echo "Linting and testing passed. Committing..."
