@@ -42,7 +42,7 @@
     "vite": "^6.0.5"
   },
   "lint-staged": {
-    "*.tsx": [
+    "*": [
       "biome check --files-ignore-unknown=true",
       "biome check --write --no-errors-on-unmatched",
       "biome check --write --organize-imports-enabled=false --no-errors-on-unmatched",
