@@ -1,9 +1,9 @@
 # Repositório Modelo para projetos Front-end
 Modelo de arquitetura React Typescript para projetos front-end. Possui arquivos de texto falando sobre como utilizar cada pasta.
 
-Utiliza Styled-components e Tailwind para realizar os estilos e o biomejs para realizar o liting e checagem de arquivos.
+Utiliza o Tailwind para realizar os estilos e o biomejs para realizar o liting e checagem de arquivos.
 
-Obs: Remover os arquivos .txt após clonar o repositório para evitar arquivos desnecessários no projeto.
+Obs: Remover os arquivos .txt após clonar o repositório para evitar arquivos desnecessários no projeto e instalar um framework de  Tailwind para melhorar a estilização.
 
 ---
 
@@ -11,7 +11,6 @@ Obs: Remover os arquivos .txt após clonar o repositório para evitar arquivos d
 - React-ts
 - TanStak
 - Tailwind
-- Styled-components
 - biomejs
 - husky
 - lint-staged
